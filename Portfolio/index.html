@@ -1,0 +1,342 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio cá nhân - Developer & Designer">
+    <meta name="keywords" content="portfolio, developer, web design, projects">
+    <meta name="author" content="Lý Thành Tài">
+    <title>Portfolio | Lý Thành Tài</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./image/fvc 1.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="./image/lg 1.png" alt="Logo" class="logo-image">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Trang chủ</a></li>
+                <li><a href="#about" class="nav-link">Giới thiệu</a></li>
+                <li><a href="#skills" class="nav-link">Kỹ năng</a></li>
+                <li><a href="#projects" class="nav-link">Dự án</a></li>
+                <li><a href="#contact" class="nav-link">Liên hệ</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-circle circle-1"></div>
+            <div class="hero-circle circle-2"></div>
+            <div class="hero-circle circle-3"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">👋 Xin chào, tôi là</p>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Lý Thành Tài</span>
+                </h1>
+                <p class="hero-subtitle">Vibe Coder</p>
+                <p class="hero-description">
+                    Sinh viên Thương mại điện tử nhưng vẫn code vì đam mê - đó là tôi, một vibe coder.
+                    Yêu thích âm nhạc và sẽ theo đuổi sáng tác nhạc trong tương lai.
+                    Từng là ứng viên tuyển chọn tuyển thủ Liên Quân Mobile. 🎮🎵💻
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-folder-open"></i> Xem dự án
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Liên hệ
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="./Project/TamThuGuiNguoiLaiDo/image/AVT.jpg" alt="Avatar" class="avatar">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Về Tôi</h2>
+                <p class="section-subtitle">
+                    Hành trình và đam mê của tôi trong lĩnh vực công nghệ
+                </p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h3>🚀 Câu chuyện của tôi</h3>
+                    <p>
+                        Hiện tại tôi đang theo học ngành <strong>Thương mại điện tử</strong>, nhưng
+                        lập trình vẫn luôn là đam mê của tôi. Tôi là một <strong>vibe coder</strong> -
+                        code vì sở thích, tạo ra những thứ tôi muốn theo cách riêng của mình.
+                    </p>
+                    <p>
+                        <strong>Âm nhạc</strong> là đam mê lớn khác của tôi. Tôi đang ấp ủ ước mơ
+                        sáng tác và sản xuất nhạc trong tương lai - đó sẽ là một hành trình thú vị.
+                    </p>
+                    <p>
+                        Tôi cũng từng tham gia tuyển chọn làm <strong>tuyển thủ Liên Quân Mobile</strong>.
+                        Gaming là một phần không thể thiếu trong cuộc sống của tôi.
+                    </p>
+                    <p>
+                        <strong>💡 Triết lý sống:</strong> "Code theo vibe, sống theo đam mê."
+                    </p>
+                </div>
+
+                <div class="about-stats fade-in">
+                    <div class="stat-card">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Năm code vì đam mê</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Dự án hoàn thành</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Ước mơ theo đuổi</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Sống với đam mê</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Kỹ Năng</h2>
+                <p class="section-subtitle">
+                    Những điều tôi đam mê và theo đuổi
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card fade-in">
+                    <span class="skill-icon">💻</span>
+                    <h3>Web Development</h3>
+                    <p>
+                        Phát triển website với HTML, CSS, JavaScript và PHP.
+                        Tạo ra những dự án cá nhân theo đam mê và sở thích.
+                    </p>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <span class="skill-icon">🛒</span>
+                    <h3>E-Commerce</h3>
+                    <p>
+                        Đang theo học ngành Thương mại điện tử. Hiểu biết về
+                        kinh doanh online, marketing và các nền tảng TMĐT.
+                    </p>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <span class="skill-icon">🎮</span>
+                    <h3>Gaming</h3>
+                    <p>
+                        Từng tham gia tuyển chọn tuyển thủ Liên Quân Mobile.
+                        Có kinh nghiệm về esports và gaming cạnh tranh.
+                    </p>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <span class="skill-icon">🎨</span>
+                    <h3>Sáng tạo nội dung</h3>
+                    <p>
+                        Thiết kế giao diện đẹp mắt, tạo nội dung sáng tạo.
+                        Kết hợp giữa code và nghệ thuật trong các dự án.
+                    </p>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <span class="skill-icon">🎵</span>
+                    <h3>Âm nhạc</h3>
+                    <p>
+                        Đam mê và đang theo đuổi việc sáng tác, sản xuất nhạc.
+                    </p>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <span class="skill-icon">🚀</span>
+                    <h3>Học hỏi liên tục</h3>
+                    <p>
+                        Luôn tò mò và sẵn sàng học điều mới và không ngừng phát triển.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Dự Án Của Tôi</h2>
+                <p class="section-subtitle">
+                    Một số dự án nổi bật mà tôi đã thực hiện
+                </p>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be loaded dynamically -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-spinner fa-spin"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Đang tải dự án...</h3>
+                        <p class="project-description">Vui lòng chờ trong giây lát</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Liên Hệ</h2>
+                <p class="section-subtitle">
+                    Hãy kết nối với tôi để cùng tạo nên điều tuyệt vời
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info fade-in">
+                    <div class="contact-item">
+                        <span class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <div class="contact-text">
+                            <strong>Email</strong>
+                            <p><a href="#" onclick="event.preventDefault();">bankana2202@gmail.com</a></p>
+
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </span>
+                        <div class="contact-text">
+                            <strong>Điện thoại</strong>
+                            <p><a href="#" onclick="event.preventDefault();">+84 878 873 699</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                        <div class="contact-text">
+                            <strong>Địa chỉ</strong>
+                            <p><a href="#" onclick="event.preventDefault();">Tp.HCM, Việt Nam</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links fade-in">
+                    <a href="https://github.com/bankana2202-creator" class="social-link" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/thành-tài-lý-01956139b" class="social-link" target="_blank"
+                        rel="noopener">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/BanSimpBaal12.56/" class="social-link" target="_blank"
+                        rel="noopener">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/bsbaal1256/" class="social-link" target="_blank" rel="noopener">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://discord.com/users/ban4407" class="social-link" target="_blank" rel="noopener"
+                        title="Discord: ban4407">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="https://zalo.me/0878873699" class="social-link" target="_blank" rel="noopener"
+                        title="Zalo: 0878873699">
+                        <img src="./Project/TamThuGuiNguoiLaiDo/image/zalo-icon.png" alt="Zalo"
+                            style="width: 30px; height: 30px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 <a href="#home">Lý Thành Tài</a>. Made with <span style="color: #f5576c;">❤️</span> and lots
+                of ☕</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+    <!-- Chatbox -->
+    <div class="chatbox-container" id="chatbox">
+        <div class="chatbox-header">
+            <div class="chatbox-header-info">
+                <img src="./Project/TamThuGuiNguoiLaiDo/image/favicon2.png" alt="Bot Avatar" class="chatbox-avatar">
+                <span>Kanna</span>
+            </div>
+            <button class="chatbox-close" id="chatboxClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chatbox-messages" id="chatMessages">
+            <div class="chat-message bot-message">
+                <img src="./Project/TamThuGuiNguoiLaiDo/image/favicon2.png" alt="Bot" class="message-avatar">
+                <div class="message-content">
+                    <p>Xin chào! 👋 Tôi là Kanna, trợ lý AI của Tài, tôi sẽ giải đáp các thắc mắc của bạn xoay quanh về
+                        Tài !
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="chatbox-input-container">
+            <input type="text" id="chatInput" placeholder="Nhập tin nhắn..." maxlength="1000">
+            <button id="chatSend">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+    <button class="chatbox-toggle" id="chatboxToggle">
+        <i class="fas fa-comments"></i>
+    </button>
+</body>
+
+</html>
